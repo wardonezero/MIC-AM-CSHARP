@@ -6,4 +6,4 @@ public class Book
     public DateOnly PublishDate { get; set; }
     public decimal BasePrice { get; set; }
     public int AutherID { get; set; }
-}
+} 
