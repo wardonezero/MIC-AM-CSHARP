@@ -1,0 +1,38 @@
+﻿@model EventForm.Models.GuestResponse
+<main class="text-center">
+    <h1> This is the FilledForm</h1>
+
+    <form asp-action="FilledForm" method="post">
+
+        <p>
+            <label asp-for="Name">Your name:</Label>
+            <input asp-for="Name"/>
+        </p>
+
+        <p>
+            <label asp-for="Email">Your email:</Label>
+            <input asp-for="Email"/>
+        </p>
+
+        <p>
+             <Label asp-for="Phone">Your phone: </Label>
+             <input asp-for="Phone"/>
+        </p>
+
+        <p>
+            <label>Will you attend?</Label>
+
+            <select asp-for="WillAttend">
+
+                <option value="">Choose an options</option>
+                <option value="true">Yes, I'll be there</option> 
+                <option value="false">No, I can't come</option>
+
+            </select>
+        </p>
+
+        <button type="submit">Submit Form</button>
+
+    </form>
+
+</main>
