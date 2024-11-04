@@ -25,24 +25,22 @@ public class CalculatorController : Controller
         {
             Fraction fraction1 = new(intNum1, intDen1);
             Fraction fraction2 = new(intNum2, intDen2);
-            Fraction result = new();
 
             switch (op)
             {
                 case "+":
-                    result = fraction1 + fraction2;
+                    ViewBag.Answer = fraction1 + fraction2;
                     break;
                 case "-":
-                    result = fraction1 - fraction2;
+                    ViewBag.Answer = fraction1 - fraction2;
                     break;
                 case "*":
-                    result = fraction1 * fraction2;
+                    ViewBag.Answer = fraction1 * fraction2;
                     break;
                 case "/":
-                    result = fraction1 / fraction2;
+                    ViewBag.Answer = fraction1 / fraction2;
                     break;
             }
-            ViewBag.Answer = result.ToString() ?? "Error";
         }
         else
         {
