@@ -18,7 +18,7 @@ public class CalculatorController : Controller
     }
 
     [HttpPost]
-    public ActionResult Calculate(string num1, string den1, string num2, string den2, string op)
+    public IActionResult Calculate(string num1, string den1, string num2, string den2, string op)
     {
         if (int.TryParse(num1, out int intNum1) && int.TryParse(den1, out int intDen1) &&
             int.TryParse(num2, out int intNum2) && int.TryParse(den2, out int intDen2))
