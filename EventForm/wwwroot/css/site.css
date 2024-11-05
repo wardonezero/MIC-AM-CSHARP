@@ -20,3 +20,18 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+table {
+    width: 100%; /* Ensures the table takes the full width */
+    border-collapse: collapse; /* Ensures borders are collapsed */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adds borders to the table cells */
+    padding: 8px; /* Adds padding to cells for better readability */
+    text-align: left; /* Aligns text to the left */
+}
+
+thead {
+    background-color: #f2f2f2; /* Optional: Adds a background color to the header */
+}
