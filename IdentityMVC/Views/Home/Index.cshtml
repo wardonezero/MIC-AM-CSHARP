@@ -1,0 +1,13 @@
+﻿@model Dictionary<string,object>
+
+<div class="text-center">
+    <table>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <th>@m.Key</th>
+                <td>@m.Value</td>
+            </tr>
+        }
+    </table>
+</div>
