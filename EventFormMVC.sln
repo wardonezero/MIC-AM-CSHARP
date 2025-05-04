@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventForm", "EventForm\EventForm.csproj", "{6BC400C7-2287-42F7-99DD-DA34BCE158D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC400C7-2287-42F7-99DD-DA34BCE158D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC400C7-2287-42F7-99DD-DA34BCE158D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC400C7-2287-42F7-99DD-DA34BCE158D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC400C7-2287-42F7-99DD-DA34BCE158D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD725C8-93CB-4EA7-B80F-B7999A395660}
+	EndGlobalSection
+EndGlobal
